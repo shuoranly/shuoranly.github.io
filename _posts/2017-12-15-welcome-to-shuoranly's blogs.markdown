@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Grimxiaojun's Blog!"
+title:  "Welcome to shuoranly's Blog!"
 tags: build-blog
 ---
-# 欢迎来到王小俊的个人博客
+# 欢迎来到朔然的个人博客
 
 这是我在github上的第一篇博客，这一篇博客我将讲述我怎么想来到github上写自己的博客的和如何在github上搭建个人博客的过程
 
