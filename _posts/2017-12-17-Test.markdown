@@ -4,4 +4,25 @@ title:  "Test"
 tags:C++(standard-library)
 ---
 
-Test
+今天是关于学习C++的标准库的相关内容
+STRING
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+  string s;
+  cin>>s;    
+  //当有字符出现后遇空白（空格符，换行符，制表符）便终止
+  //如输入”sdjajsd  1321weia“  输入的结果将只会为sdjajsd
+  cout<<s<<endl;
+  return 0;
+}
+string的empty()函数
+
+string s;
+while(getline(cin,s)){//每次都一行
+	if(!s.empty()){    //去掉空行
+		cout<<s<<endl;
+	}
+}
+return 0;
