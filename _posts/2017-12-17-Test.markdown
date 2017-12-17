@@ -4,25 +4,75 @@ title:  "Test"
 tags:C++(standard-library)
 ---
 
-今天是关于学习C++的标准库的相关内容
-STRING
-#include<iostream>
-#include<string>
-using namespace std;
-int main(){
-  string s;
-  cin>>s;    
-  //当有字符出现后遇空白（空格符，换行符，制表符）便终止
-  //如输入”sdjajsd  1321weia“  输入的结果将只会为sdjajsd
-  cout<<s<<endl;
-  return 0;
-}
-string的empty()函数
-
-string s;
-while(getline(cin,s)){//每次都一行
-	if(!s.empty()){    //去掉空行
-		cout<<s<<endl;
-	}
-}
-return 0;
+# 欢迎来到朔然的个人博客
+@shuoranly
+first commit
+2 days ago
+7
+8
+这是我在github上的第一篇博客，这一篇博客我将讲述我怎么想来到github上写自己的博客的和如何在github上搭建个人博客的过程
+9
+10
+- 首先我之前写博客是在CSDN上写，在途中感觉CSDN支持的Markdown简直是太low了，他的中英文切换时竟然自动直接切到了最下面一行，这是最不能忍受的，当我打着字切换了一下中英文输入法，变到了最下面一行，试问一个想成为一个好的程序员的我怎么能继续这样呢。。。不过也有可能是我没发现他的解决方法，不喜勿喷
+11
+12
+- 其二在CSDN上搭建出来的博客总感觉差了点味道，总觉得没有自己的个人博客看着舒爽，有时候感觉有点别扭，直观点说就是觉得不太好看，这也是不太能忍的，哈哈哈，毕竟所有人都希望他（她）所写出的博客既美观又实用，能够帮助到人们
+13
+14
+  ### 以上便是我来到github上写自己的博客的部分原因
+15
+16
+------
+17
+18
+下面我将讲述我是如何在github上搭建的个人博客，在这里我将把我走过的弯路都省略，只讲怎么能完美搭建好自己的博客，相信这也是大家想要的（手动滑稽）
+19
+20
+#### 总共需要的东西
+21
+22
+- 首先你在github上写东西，所以你必须有github账号，会基本的git操作
+23
+- 由于我的博客是在WINDOWS下基于jekyll的所以你要下载Ruby（jekyll基于它开发）
+24
+- 还要下载与Ruby配套的RubyDevKit
+25
+- 我将在下面一步步给你指出你需要的的东西的安装步骤以及安装网址
+26
+27
+#### 以上便是你基本需要的东西
+28
+29
+<h3>Ruby</h3>
+30
+31
+我现在所用是windows所以我用的是[Rubyinstaller](http://rubyinstaller.org/downloads/)安装
+32
+33
+![安装地址的界面](../../../images/photo/Ruby-install-page.PNG)
+34
+35
+无脑式安装，直接下一步就好
+36
+37
+![安装过程](../../../images/photo/Ruby-installed.PNG)
+38
+39
+40
+41
+<h3>RubyDevKit</h3>
+42
+43
+在安装RubyDevKit时，仅仅需要注意的是要与你安装的Ruby版本一致
+44
+45
+![安装RubyDevKit的地址界面](../../../images/photo/DevKit-install-page.PNG)
+46
+47
+这是去往[RubyDevKit](http://rubyinstaller.org/downloads/)的链接，下载后直接解压到你想让它在的文件夹下，或者自己创建一个文件夹用以存放
+48
+49
+![下载下来的RubyDevKit](../../../images/photo/RubyDevKit-installed.PNG)
+50
+51
+<h3>此时便有一些命令需要去敲了</h3>
