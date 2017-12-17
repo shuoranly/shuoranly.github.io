@@ -10,3 +10,26 @@ tags: build-blog
 <h3>RubyDevKit</h3> 段
 [Rubyinstaller](http://rubyinstaller.org/downloads/)   链接
 [安装地址的界面](../../../images/photo/Ruby-install-page.PNG)  图片
+
+以下为一片 有背景的。
+```c++
+60
+isalunm(c)       //当c是字母或数字时为真
+61
+isalpha(c)       //当c是字母时为真
+62
+isdigit(c)       //当c是数字时为真
+63
+islower(c)       //若c为小写则返回真
+64
+isupper(c)       //若c为大写则返回真
+65
+tolower(c)       //将c变为小写
+66
+toupper(c)       //将C变为大写字母
+67
+isspace(c)       //当c是空白时为真
+68
+ispunct(c)       //当c是标点符号时为真
+69
+```
