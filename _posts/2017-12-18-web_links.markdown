@@ -6,8 +6,7 @@ tags: Link
 
 # 学习中参考的网站链接
 
-### Linux
-
+### 以上便Linux
 <h3>Vim</h3>
 [Cscope的使用（领略Vim + Cscope的强大魅力） - - CSDN博客](http://blog.csdn.net/dengxiayehu/article/details/6330200)
 [Trinity - the Trinity of taglist, NERDtree and SrcExpl an IDE works like Source Insight vim online](http://www.vim.org/scripts/script.php?script_id=2347)
