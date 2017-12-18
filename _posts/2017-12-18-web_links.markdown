@@ -6,7 +6,7 @@ tags: Link
 
 # 学习中参考的网站链接
 
-## Linux
+## Linux C
 <h3>Vim</h3>
 [Cscope的使用（领略Vim + Cscope的强大魅力） - - CSDN博客](http://blog.csdn.net/dengxiayehu/article/details/6330200)
 
@@ -32,5 +32,24 @@ tags: Link
 [整理：状态机的C语言编程 - 以梦为码，莫负韶华。 - CSDN博客](http://blog.csdn.net/bat67/article/details/52062276)
 
 [深入浅出理解有限状态机 - 简书 ](http://www.jianshu.com/p/5eb45c64f3e3)
+
+<h3>多线程</h3>
+[Linux 的多线程编程的高效开发经验](https://www.ibm.com/developerworks/cn/linux/l-cn-mthreadps/)
+[Linux信号量编程实例 - surfer - 博客园](http://www.cnblogs.com/liuweijian/archive/2009/12/30/1635888.html)
+[linux多线程pthread - IT-Homer - CSDN博客](http://blog.csdn.net/ithomer/article/details/5920936)
+[Linux多线程Pthread学习小结 - IT-Homer - CSDN博客](http://blog.csdn.net/ithomer/article/details/6063067)
+[一个简单的Linux多线程例子 带你洞悉互斥量 信号量 条件变量编程 - cs_jin_scor - 博客园](http://www.cnblogs.com/cs-jin-note/archive/2012/10/30/2746468.html)
+[信号量 互斥锁 条件变量的区别 - capa2006的专栏 - CSDN博客](http://blog.csdn.net/locape/article/details/6040383)
+[无锁编程(二) - 原子操作 - 路漫漫其修远兮 - CSDN博客](http://blog.csdn.net/linux_bug/article/details/48653851)
+
+<h3>调试</h3>
+[gdb 调试入门，大牛写的高质量指南 - 文章 - 伯乐在线](http://blog.jobbole.com/107759/)
+[GDB调试命令详解 - CSDN博客](http://blog.csdn.net/Linux7985/article/details/52399439)
+[linux下 C语言调试之道 WRITE_LOG - CSDN博客](http://blog.csdn.net/acingdreamer/article/details/53289208)
+[Linux下一个简单的日志系统的设计及其C代码实现 - Programmer_Zhou的专栏 - CSDN博客](http://blog.csdn.net/zhouzhaoxiong1227/article/details/45917613)
+[关于嵌入式系统日志打印的一点建议 - CSDN博客](http://blog.csdn.net/lxxjj1/article/details/48474913)
+
+
+## 嵌入式开发
 
 
