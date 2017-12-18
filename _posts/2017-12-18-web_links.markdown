@@ -6,7 +6,22 @@ tags: Link
 
 # 学习中参考的网站链接
 
-## Linux
+### Linux
 
 <h3>Vim</h3>
 [Cscope的使用（领略Vim + Cscope的强大魅力） - - CSDN博客](http://blog.csdn.net/dengxiayehu/article/details/6330200)
+[Trinity - the Trinity of taglist, NERDtree and SrcExpl an IDE works like Source Insight vim online](http://www.vim.org/scripts/script.php?script_id=2347)
+[vim - How to exclude multiple directories with Exuberant ctags - Stack Overflow](https://stackoverflow.com/questions/25819649/how-to-exclude-multiple-directories-with-exuberant-ctags)
+[GNU cflow](https://www.gnu.org/software/cflow/#TOCdocumentation)
+
+<h3>回调函数</h3>
+[回调函数在非阻塞模式中的使用 - 鱼思故渊的专栏 - CSDN博客](http://blog.csdn.net/yusiguyuan/article/details/19969769)
+[回调函数（callback）是什么？ - 知乎 ](https://www.zhihu.com/question/19801131)
+[模块接口间三中调用方式 - yangshuangtao的专栏 - CSDN博客](http://blog.csdn.net/yangshuangtao/article/details/52044940)
+ 
+<h3>状态机</h3>
+[一个有特色的有限状态机 鸟窝](http://colobu.com/2016/12/24/a-featured-fsm/)
+[嵌入式设计模式：有限状态自动机的C语言实现 - chrihop - 博客园](http://www.cnblogs.com/autosar/archive/2012/06/22/2558604.html)
+[整理：状态机的C语言编程 - 以梦为码，莫负韶华。 - CSDN博客](http://blog.csdn.net/bat67/article/details/52062276)
+[深入浅出理解有限状态机 - 简书 ](http://www.jianshu.com/p/5eb45c64f3e3)
+ 
