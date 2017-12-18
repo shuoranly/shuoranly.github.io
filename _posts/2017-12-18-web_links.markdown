@@ -35,127 +35,136 @@ tags: Link
 
 <h3>多线程</h3>
 [Linux 的多线程编程的高效开发经验](https://www.ibm.com/developerworks/cn/linux/l-cn-mthreadps/)
+
 [Linux信号量编程实例 - surfer - 博客园](http://www.cnblogs.com/liuweijian/archive/2009/12/30/1635888.html)
+
 [linux多线程pthread - IT-Homer - CSDN博客](http://blog.csdn.net/ithomer/article/details/5920936)
+
 [Linux多线程Pthread学习小结 - IT-Homer - CSDN博客](http://blog.csdn.net/ithomer/article/details/6063067)
+
 [一个简单的Linux多线程例子 带你洞悉互斥量 信号量 条件变量编程 - cs_jin_scor - 博客园](http://www.cnblogs.com/cs-jin-note/archive/2012/10/30/2746468.html)
+
 [信号量 互斥锁 条件变量的区别 - capa2006的专栏 - CSDN博客](http://blog.csdn.net/locape/article/details/6040383)
+
 [无锁编程(二) - 原子操作 - 路漫漫其修远兮 - CSDN博客](http://blog.csdn.net/linux_bug/article/details/48653851)
 
 <h3>调试</h3>
 [gdb 调试入门，大牛写的高质量指南 - 文章 - 伯乐在线](http://blog.jobbole.com/107759/)
+
 [GDB调试命令详解 - CSDN博客](http://blog.csdn.net/Linux7985/article/details/52399439)
+
 [linux下 C语言调试之道 WRITE_LOG - CSDN博客](http://blog.csdn.net/acingdreamer/article/details/53289208)
+
 [Linux下一个简单的日志系统的设计及其C代码实现 - Programmer_Zhou的专栏 - CSDN博客](http://blog.csdn.net/zhouzhaoxiong1227/article/details/45917613)
+
 [关于嵌入式系统日志打印的一点建议 - CSDN博客](http://blog.csdn.net/lxxjj1/article/details/48474913)
 
 
 ## 嵌入式开发
-<h3>Buildroot</h3>
-Bootloader下实现Flash的读写_百度文库
-bootloader程序的比较与分析_百度文库 (2)
-Bring Up - CSDN博客
-BSP - 我还不懂，所以在学 - CSDN博客
-Buildroot构建指南——根文件系统(Rootfs) - zhou_chenz的博客 - CSDN博客
-Buildroot详解
-Ubuntu下Grub配置详解_Linux教程_Linux公社-Linux系统门户网站
-[教程]使用buildroot完全自定义自己的embedded linux系统(nand) - cubieboards的博客 - 与非博客 - 与非网
-【整理】什么是根文件系统（rootfs=Root Fils System） – 在路上
-交叉编译详解
-关于Ubuntu开机启动菜单grub2（选择内核、删除内核、调整内核启动顺序） - 卢华东 - CSDN博客
-神器 Qemu 一 利用X11 渲染将qmeu 跑在Windows 上 - Ongoingcre - CSDN博客
-集成到Buildroot中的Helloword程序 - 资料教程 - 龙芯俱乐部开源社区 - Powered by Discuz!
-
-<h3>GoAhead</h3>
-CGI详解（原理，配置及访问） - CSDN博客
-C语言CGI编程入门(一) - CSDN博客
-C语言写CGI 程序简要指南 - Sugar的专栏 - CSDN博客
-C语言写CGI程序 - CSDN博客
-GoAhead 2.5嵌入式Web服务器移植到ARM9 2440 + Linux中_Linux编程_Linux公社-Linux系统门户网站
-GoAhead webserver源码详解(初学者必备)_百度文库
-goahead-3.3.6源码分析 - Ataraxia的专栏 - CSDN博客
-goAhead3.4.3源码分析_百度文库
-GoAhead的asp过程与goform过程浅析 - CSDN博客
-Linux下goahead3.3.6的移植以及文件上传下载示例 - Ataraxia的专栏 - CSDN博客
-【C-C++】CGI编程 - CSDN博客
-【智能路由器】goahead服务器快速开发 - CSDN博客
-嵌入式web server——Goahead移植要点 - qinwanlin - 博客园
-移植goahead 到开发板笔记 - CSDN博客
-
-<h3>MSYS2</h3>
-MSYS2 + MinGW-w64 + Git + gVim 环境配置 - 推酷
-MSYS2开发环境搭建 - 一步一脚印 - CSDN博客
-windows搭建gcc开发环境(msys2) - CSDN博客
-
-<h3>QMEU</h3>
-Busybox init进程启动过程分析
-fs4412开发板学习笔记(三) - CSDN博客
-How to build and run ARM Linux on QEMU from scratch - CoryXie - 博客园
-QEMU version 2.10.92 User Documentation
-Yocto Toolchain编译busybox - CSDN博客
-从零使用qemu模拟器搭建arm运行环境 - CSDN博客
-使用qemu模拟器搭建arm运行环境 - 简书
-搭建Embedded Linux kernel环境--在QEMU上运行ARM linux系统 - CSDN博客
-泰晓科技 - 利用 qemu 模拟嵌入式系统制作全过程
-用cygwin编译qemu源代码 - CSDN博客
-用qemu-system-arm搭建arm11环境 - CSDN博客
-
-<h3>u-boot</h3>
-u－boot 移植步骤详解
-内核引导过程 - CSDN博客
-
-<h3>内核</h3>
-ELF文件和BIN文件 - CSDN博客
-Index of -pub-linux-kernel-v4.x-incr-
-【已解决】Cygwin下交叉编译Linux内核在make menuconfig时出错：scripts-kconfig-mconf scripts-kconfig-mconf cannot execute binary file – 在路上
-
-<h3>根文件系统</h3>
-嵌入式Linux根文件系统制作和挂载 - CSDN博客
 
 <h3>编译</h3>
-arm-linux-gnueabihf-gcc下载 - VeryARM
-Bison-Flex 笔记 - 大CC - 博客园
-compiling coreutils help2man can't get `--help' info from man-cp.td-cp Try `--no-discard-stderr' - 艾伯特的鸟屋的日志 - 网易博客
-Cross-compile toolchains - Tuxamito
-crosstool-ng详解
-Cygwin下用crosstool-ng 编译交叉工具链 - CSDN博客
-Cygwin下用crosstool-ng 编译交叉工具链的常见错误及解决办法_百度文库
-flex and bison ：做个计算器-Bean_lee-ChinaUnix博客
-GNU Arm Embedded Toolchain Downloads – Arm Developer
-GNU C 函数库 （glibc,uClibc,newlib）
-Index of -download-crosstool-ng-
-Python在实时嵌入式系统开发中扮演的五个主要角色 - 51CTO.COM
-python解释器实现及其嵌入式应用：解释器移植 - CSDN博客
-uclibc和glibc的差别 - CSDN博客
-下载和使用ARM交叉编译工具链的一般问题解决 - CSDN博客
-在MSYS2+MinGW环境下编译arm-none-eabi工具链 - CSDN博客
-如何用flex+bison写语法分析器 - costaxu的个人页面
-浅析gcc、arm-linux-gcc和arm-elf-gcc的关系 - CSDN博客
+[交叉编译详解]()
+[Bison-Flex 笔记 - 大CC - 博客园]()
+[compiling coreutils help2man can't get `--help' info from man-cp.td-cp Try `--no-discard-stderr' - 艾伯特的鸟屋的日志 - 网易博客]()
+[Cross-compile toolchains - Tuxamito]()
+[crosstool-ng详解]()
+[Cygwin下用crosstool-ng 编译交叉工具链 - CSDN博客]()
+[Cygwin下用crosstool-ng 编译交叉工具链的常见错误及解决办法_百度文库]()
+[flex and bison ：做个计算器-Bean_lee-ChinaUnix博客]()
+[GNU Arm Embedded Toolchain Downloads – Arm Developer]()
+[GNU C 函数库 （glibc,uClibc,newlib）]()
+[Python在实时嵌入式系统开发中扮演的五个主要角色 - 51CTO.COM]()
+[python解释器实现及其嵌入式应用：解释器移植 - CSDN博客]()
+[uclibc和glibc的差别 - CSDN博客]()
+[下载和使用ARM交叉编译工具链的一般问题解决 - CSDN博客]()
+[在MSYS2+MinGW环境下编译arm-none-eabi工具链 - CSDN博客]()
+[如何用flex+bison写语法分析器 - costaxu的个人页面]()
+[浅析gcc、arm-linux-gcc和arm-elf-gcc的关系 - CSDN博客]()
+
+<h3>内核</h3>
+[]()ELF文件和BIN文件 - CSDN博客
+[Cygwin下交叉编译Linux内核在make menuconfig时出错：scripts-kconfig-mconf scripts-kconfig-mconf cannot execute binary file – 在路上]()
+
+<h3>根文件系统</h3>
+[嵌入式Linux根文件系统制作和挂载 - CSDN博客]()
+
+<h3>u-boot</h3>
+[u－boot 移植步骤详解]()
+[内核引导过程 - CSDN博客]()
+
+<h3>Buildroot</h3>
+[bootloader程序的比较与分析_百度文库 (2)](https://wenku.baidu.com/view/1c4fdc1d58f5f61fb636667a.html)
+[Bring Up - CSDN博客](http://blog.csdn.net/linweig/article/details/5093851)
+[BSP - 我还不懂，所以在学 - CSDN博客]()
+[Buildroot构建指南——根文件系统(Rootfs) - zhou_chenz的博客 - CSDN博客]()
+[Buildroot详解]()
+[Ubuntu下Grub配置详解_Linux教程_Linux公社-Linux系统门户网站]()
+[使用buildroot完全自定义自己的embedded linux系统(nand) - cubieboards的博客 - 与非博客 - 与非网]()
+[什么是根文件系统（rootfs=Root Fils System） – 在路上]()
+[关于Ubuntu开机启动菜单grub2（选择内核、删除内核、调整内核启动顺序） - 卢华东 - CSDN博客]()
+[集成到Buildroot中的Helloword程序 - 资料教程 - 龙芯俱乐部开源社区 - Powered by Discuz!]()
+
+<h3>GoAhead</h3>
+[CGI详解（原理，配置及访问） - CSDN博客]()
+[C语言CGI编程入门(一) - CSDN博客]()
+[C语言写CGI 程序简要指南 - Sugar的专栏 - CSDN博客]()
+[C语言写CGI程序 - CSDN博客]()
+[]()GoAhead 2.5嵌入式Web服务器移植到ARM9 2440 + Linux中_Linux编程_Linux公社-Linux系统门户网站
+[GoAhead webserver源码详解(初学者必备)_百度文库]()
+[goahead-3.3.6源码分析 - Ataraxia的专栏 - CSDN博客]()
+[goAhead3.4.3源码分析_百度文库]()
+[GoAhead的asp过程与goform过程浅析 - CSDN博客]()
+[Linux下goahead3.3.6的移植以及文件上传下载示例 - Ataraxia的专栏 - CSDN博客]()
+[CGI编程 - CSDN博客]()
+[【智能路由器】goahead服务器快速开发 - CSDN博客]()
+[嵌入式web server——Goahead移植要点 - qinwanlin - 博客园]()
+[移植goahead 到开发板笔记 - CSDN博客]()
+
+<h3>MSYS2</h3>
+[MSYS2 + MinGW-w64 + Git + gVim 环境配置 - 推酷]()
+[MSYS2开发环境搭建 - 一步一脚印 - CSDN博客]()
+[windows搭建gcc开发环境(msys2) - CSDN博客]()
+
+<h3>QMEU</h3>
+[Busybox init进程启动过程分析]()
+[fs4412开发板学习笔记(三) - CSDN博客]()
+[How to build and run ARM Linux on QEMU from scratch - CoryXie - 博客园]()
+[QEMU version 2.10.92 User Documentation]()
+[Yocto Toolchain编译busybox - CSDN博客]()
+[从零使用qemu模拟器搭建arm运行环境 - CSDN博客]()
+[使用qemu模拟器搭建arm运行环境 - 简书]()
+[搭建Embedded Linux kernel环境--在QEMU上运行ARM linux系统 - CSDN博客]()
+[泰晓科技 - 利用 qemu 模拟嵌入式系统制作全过程]()
+[用cygwin编译qemu源代码 - CSDN博客]()
+[用qemu-system-arm搭建arm11环境 - CSDN博客]()
 
 <h3>驱动相关</h3>
-I2C的一些函数赏析 - CSDN博客
-i2c设备驱动实例分析
-linux4.0 和linux2.6的区别_百度知道
-linux下I2C驱动架构全面分析 - CSDN博客
-Linux设备驱动之Ioctl控制 - LoveFM - 博客园
-Linux设备驱动之——I2C总线 - CSDN博客
-Linux设备驱动开发详解：基于最新的Linux4.0内核 文字版带书签，好书-CSDN下载
-Linux设备驱动模型之platform(平台)总线详解 - 涛少& - 博客园
-MTD系列 - 关于linux MTD的一些理解 - CSDN博客
-PCI总线原理 - CSDN博客
-platform驱动之probe函数 - CSDN博客
-Ubuntu+下构建内核源码树_图文教程 - u010154760的专栏 - CSDN博客
-内核新的ioctl方式--unlocked_ioctl和compat_ioctl(解决errorunknown field 'ioctl' specified in initializer) - CSDN博客
-在Linux下写一个简单的驱动程序 - amanlikethis - 博客园
-字符设备之register_chrdev与register_chrdev_region
-BCM 芯片SDK初始化 - ppw001的专栏 - CSDN博客
-BCM应用开发(笔记)-shaohui973-ChinaUnix博客
-Linux 引导过程内幕
-NOR闪存-NAND闪存是什么意思 - 电子发烧友网
-USTC Open Source Software Mirror
-What is ONIE (Open Network Install Environment) – Ethan Banks
-LPC总线介绍_百度文库
-SMBus与I2C的区别_三成菜鸟_新浪博客
+[I2C的一些函数赏析 - CSDN博客]()
+[i2c设备驱动实例分析]()
+[linux4.0 和linux2.6的区别_百度知道]()
+[linux下I2C驱动架构全面分析 - CSDN博客]()
+[Linux设备驱动之Ioctl控制 - LoveFM - 博客园]()
+[Linux设备驱动之——I2C总线 - CSDN博客]()
+[Linux设备驱动开发详解：基于最新的Linux4.0内核 文字版带书签，好书-CSDN下载]()
+[Linux设备驱动模型之platform(平台)总线详解 - 涛少& - 博客园]()
+[MTD系列 - 关于linux MTD的一些理解 - CSDN博客]()
+[PCI总线原理 - CSDN博客]()
+[platform驱动之probe函数 - CSDN博客]()
+[Ubuntu+下构建内核源码树_图文教程 - u010154760的专栏 - CSDN博客]()
+[内核新的ioctl方式--unlocked_ioctl和compat_ioctl(解决errorunknown field 'ioctl' specified in initializer) - CSDN博客]()
+[在Linux下写一个简单的驱动程序 - amanlikethis - 博客园]()
+[字符设备之register_chrdev与register_chrdev_region]()
+[BCM 芯片SDK初始化 - ppw001的专栏 - CSDN博客]()
+[BCM应用开发(笔记)-shaohui973-ChinaUnix博客]()
+[Linux 引导过程内幕]()
+[NOR闪存-NAND闪存是什么意思 - 电子发烧友网]()
+[USTC Open Source Software Mirror]()
+[What is ONIE (Open Network Install Environment) – Ethan Banks]()
+[LPC总线介绍_百度文库]()
+[SMBus与I2C的区别_三成菜鸟_新浪博客]()
 
 ## 软件下载
-清华大学开源软件镜像站 Tsinghua Open Source Mirror
+[Index of -pub-linux-kernel-v4.x-incr-]()
+[Index of -download-crosstool-ng-]()
+[arm-linux-gnueabihf-gcc下载 - VeryARM]()
+[清华大学开源软件镜像站 Tsinghua Open Source Mirror]()
