@@ -8,6 +8,4 @@ tags: Link
 
 ### Linux
 <h3>Vim</h3>
-```
-http://blog.csdn.net/dengxiayehu/article/details/6330200
-```
+[Cscope的使用（领略Vim + Cscope的强大魅力） - - CSDN博客](http://blog.csdn.net/dengxiayehu/article/details/6330200)
