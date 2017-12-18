@@ -51,7 +51,7 @@ tags: Link
 
 
 ## 嵌入式开发
-<h3>buildroot</h3>
+<h3>Buildroot</h3>
 Bootloader下实现Flash的读写_百度文库
 bootloader程序的比较与分析_百度文库 (2)
 Bring Up - CSDN博客
@@ -66,7 +66,7 @@ Ubuntu下Grub配置详解_Linux教程_Linux公社-Linux系统门户网站
 神器 Qemu 一 利用X11 渲染将qmeu 跑在Windows 上 - Ongoingcre - CSDN博客
 集成到Buildroot中的Helloword程序 - 资料教程 - 龙芯俱乐部开源社区 - Powered by Discuz!
 
-<h3>goahead</h3>
+<h3>GoAhead</h3>
 CGI详解（原理，配置及访问） - CSDN博客
 C语言CGI编程入门(一) - CSDN博客
 C语言写CGI 程序简要指南 - Sugar的专栏 - CSDN博客
@@ -82,7 +82,7 @@ Linux下goahead3.3.6的移植以及文件上传下载示例 - Ataraxia的专栏 
 嵌入式web server——Goahead移植要点 - qinwanlin - 博客园
 移植goahead 到开发板笔记 - CSDN博客
 
-<h3>msys2</h3>
+<h3>MSYS2</h3>
 MSYS2 + MinGW-w64 + Git + gVim 环境配置 - 推酷
 MSYS2开发环境搭建 - 一步一脚印 - CSDN博客
 windows搭建gcc开发环境(msys2) - CSDN博客
