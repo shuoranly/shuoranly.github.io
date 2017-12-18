@@ -8,6 +8,7 @@ tags: Link
 
 ## Linux C
 <h3>Vim</h3>
+
 [Cscope的使用（领略Vim + Cscope的强大魅力） - - CSDN博客](http://blog.csdn.net/dengxiayehu/article/details/6330200)
 
 [Trinity-NERDtree and SrcExpl an IDE works like Source Insight vim online](http://www.vim.org/scripts/script.php?script_id=2347)
@@ -17,6 +18,7 @@ tags: Link
 [GNU cflow](https://www.gnu.org/software/cflow/#TOCdocumentation)
 
 <h3>回调函数</h3>
+
 [回调函数在非阻塞模式中的使用 - 鱼思故渊的专栏 - CSDN博客](http://blog.csdn.net/yusiguyuan/article/details/19969769)
 
 [回调函数（callback）是什么？ - 知乎 ](https://www.zhihu.com/question/19801131)
@@ -24,6 +26,7 @@ tags: Link
 [模块接口间三中调用方式 - yangshuangtao的专栏 - CSDN博客](http://blog.csdn.net/yangshuangtao/article/details/52044940)
  
 <h3>状态机</h3>
+
 [一个有特色的有限状态机 鸟窝](http://colobu.com/2016/12/24/a-featured-fsm/)
 
 [嵌入式设计模式：有限状态自动机的C语言实现 - chrihop - 博客园](http://www.cnblogs.com/autosar/archive/2012/06/22/2558604.html)
@@ -33,6 +36,7 @@ tags: Link
 [深入浅出理解有限状态机 - 简书 ](http://www.jianshu.com/p/5eb45c64f3e3)
 
 <h3>多线程</h3>
+
 [Linux 的多线程编程的高效开发经验](https://www.ibm.com/developerworks/cn/linux/l-cn-mthreadps/)
 
 [Linux信号量编程实例 - surfer - 博客园](http://www.cnblogs.com/liuweijian/archive/2009/12/30/1635888.html)
@@ -48,6 +52,7 @@ tags: Link
 [无锁编程(二) - 原子操作 - 路漫漫其修远兮 - CSDN博客](http://blog.csdn.net/linux_bug/article/details/48653851)
 
 <h3>调试</h3>
+
 [gdb 调试入门，大牛写的高质量指南 - 文章 - 伯乐在线](http://blog.jobbole.com/107759/)
 
 [GDB调试命令详解 - CSDN博客](http://blog.csdn.net/Linux7985/article/details/52399439)
@@ -62,6 +67,7 @@ tags: Link
 ## 嵌入式开发
 
 <h3>编译</h3>
+
 [交叉编译详解]()
 
 [Bison-Flex 笔记 - 大CC - 博客园]()
@@ -97,19 +103,23 @@ tags: Link
 [浅析gcc、arm-linux-gcc和arm-elf-gcc的关系 - CSDN博客]()
 
 <h3>内核</h3>
+
 [ELF文件和BIN文件 - CSDN博客]()
 
 [Cygwin下交叉编译Linux内核在make menuconfig时出错：scripts-kconfig-mconf scripts-kconfig-mconf cannot execute binary file]()
 
 <h3>根文件系统</h3>
+
 [嵌入式Linux根文件系统制作和挂载 - CSDN博客]()
 
 <h3>u-boot</h3>
+
 [u－boot 移植步骤详解]()
 
 [内核引导过程 - CSDN博客]()
 
 <h3>Buildroot</h3>
+
 [bootloader程序的比较与分析_百度文库](https://wenku.baidu.com/view/1c4fdc1d58f5f61fb636667a.html)
 
 [Bring Up - CSDN博客](http://blog.csdn.net/linweig/article/details/5093851)
@@ -131,6 +141,7 @@ tags: Link
 [集成到Buildroot中的Helloword程序 - 资料教程 - 龙芯俱乐部开源社区 - Powered by Discuz!]()
 
 <h3>GoAhead</h3>
+
 [CGI详解（原理，配置及访问） - CSDN博客]()
 
 [C语言CGI编程入门(一) - CSDN博客]()
@@ -160,6 +171,7 @@ tags: Link
 [移植goahead 到开发板笔记 - CSDN博客]()
 
 <h3>MSYS2</h3>
+
 [MSYS2 + MinGW-w64 + Git + gVim 环境配置 - 推酷]()
 
 [MSYS2开发环境搭建 - 一步一脚印 - CSDN博客]()
@@ -167,6 +179,7 @@ tags: Link
 [windows搭建gcc开发环境(msys2) - CSDN博客]()
 
 <h3>QMEU</h3>
+
 [Busybox init进程启动过程分析]()
 
 [fs4412开发板学习笔记(三) - CSDN博客]()
@@ -190,6 +203,7 @@ tags: Link
 [用qemu-system-arm搭建arm11环境 - CSDN博客]()
 
 <h3>驱动相关</h3>
+
 [I2C的一些函数赏析 - CSDN博客]()
 
 [i2c设备驱动实例分析]()
@@ -237,6 +251,7 @@ tags: Link
 [SMBus与I2C的区别_三成菜鸟_新浪博客]()
 
 ## 软件下载
+
 [Index of -pub-linux-kernel-v4.x-incr-]()
 
 [Index of -download-crosstool-ng-]()
