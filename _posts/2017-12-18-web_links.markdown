@@ -10,8 +10,7 @@ tags: Link
 <h3>Vim</h3>
 [Cscope的使用（领略Vim + Cscope的强大魅力） - - CSDN博客](http://blog.csdn.net/dengxiayehu/article/details/6330200)
 
-[Trinity - the Trinity of taglist, NERDtree and SrcExpl an IDE works like Source Insight vim online]
-(http://www.vim.org/scripts/script.php?script_id=2347)
+[Trinity-NERDtree and SrcExpl an IDE works like Source Insight vim online](http://www.vim.org/scripts/script.php?script_id=2347)
 
 [vim - How to exclude multiple directories with Exuberant ctags - Stack Overflow](https://stackoverflow.com/questions/25819649/how-to-exclude-multiple-directories-with-exuberant-ctags)
 
@@ -55,7 +54,7 @@ tags: Link
 
 [linux下 C语言调试之道 WRITE_LOG - CSDN博客](http://blog.csdn.net/acingdreamer/article/details/53289208)
 
-[Linux下一个简单的日志系统的设计及其C代码实现 - Programmer_Zhou的专栏 - CSDN博客](http://blog.csdn.net/zhouzhaoxiong1227/article/details/45917613)
+[Linux下一个简单的日志系统的设计及其C代码实现](http://blog.csdn.net/zhouzhaoxiong1227/article/details/45917613)
 
 [关于嵌入式系统日志打印的一点建议 - CSDN博客](http://blog.csdn.net/lxxjj1/article/details/48474913)
 
@@ -67,7 +66,7 @@ tags: Link
 
 [Bison-Flex 笔记 - 大CC - 博客园]()
 
-[compiling coreutils help2man can't get `--help' info from man-cp.td-cp Try `--no-discard-stderr' - 艾伯特的鸟屋的日志 - 网易博客]()
+[compiling coreutils help2man can't get `--help' info from man-cp.td-cp Try `--no-discard-stderr']()
 
 [Cross-compile toolchains - Tuxamito]()
 
@@ -100,7 +99,7 @@ tags: Link
 <h3>内核</h3>
 [ELF文件和BIN文件 - CSDN博客]()
 
-[Cygwin下交叉编译Linux内核在make menuconfig时出错：scripts-kconfig-mconf scripts-kconfig-mconf cannot execute binary file – 在路上]()
+[Cygwin下交叉编译Linux内核在make menuconfig时出错：scripts-kconfig-mconf scripts-kconfig-mconf cannot execute binary file]()
 
 <h3>根文件系统</h3>
 [嵌入式Linux根文件系统制作和挂载 - CSDN博客]()
@@ -111,7 +110,7 @@ tags: Link
 [内核引导过程 - CSDN博客]()
 
 <h3>Buildroot</h3>
-[bootloader程序的比较与分析_百度文库 (2)](https://wenku.baidu.com/view/1c4fdc1d58f5f61fb636667a.html)
+[bootloader程序的比较与分析_百度文库](https://wenku.baidu.com/view/1c4fdc1d58f5f61fb636667a.html)
 
 [Bring Up - CSDN博客](http://blog.csdn.net/linweig/article/details/5093851)
 
