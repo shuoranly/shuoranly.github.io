@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "super()的使用"
+tags: Python
+---
+
+# super()的使用介绍
+&emsp;&emsp;关于super()函数，查看python官方文档的解释如下：<br>
+super([type[, object-or-type]])返回一个代理对象，它委托方法给父类或者type的同级类。这对于访问类中被覆盖的继承方法很有用。除了跳过type本身之外，搜索顺序与getattr()所使用的顺序相同。<br>
+&emsp;&emsp;通俗点来说就是在类的继承中，如果重定义某个方法，该方法会覆盖父类的同名方法。但有时，我们希望能同时实现父类的功能，这时我们就需要调用父类的方法了，可通过使用 super 来实现，比如：<br>
+```
+class Animal(object):
+    def __init__(self, name):
+        self.name = name
+    def greet(self):
+        print 'Hello, I am %s.' % self.name
+
+class Dog(Animal):
+    def greet(self):
+        super().greet()
+        print 'WangWang...'
+```
+&emsp;&emsp;在上面，Animal 是父类，Dog 是子类，我们在 Dog 类重定义了 greet 方法，为了能同时实现父类的功能，我们又调用了父类的方法，看下面的使用：<br>
+```
+>>> dog = Dog('dog')
+>>> dog.greet()
+Hello, I am dog.
+WangWang..
+```
+&emsp;&emsp;注意，super()只实现显式点分属性查找的绑定过程，例如super().__getitem__(name)。它通过实现自己的__getattribute__()方法来实现这一点，以便以支持协同多继承需要的以可预测的顺序搜索类。因此，super()没有定义隐式的查找语句或操作，例如super()[name]。<br>
+
+&emsp;&emsp;super有两种典型的使用情况。在具有单继承的类层次结构中，可以使用super来引用父类，而不必明确命名它们，从而使代码更易于维护。这种使用非常类似于在其他编程语言中super的使用。<br>
+&emsp;&emsp;第二种使用情况是在动态执行环境中支持协同多继承。这种使用情况是Python独有的，在静态编译语言或仅支持单继承的语言中找不到。这使得可以实现“菱形图”，其中多个基类实现相同的方法。良好的设计指出此方法在每种情况下具有相同的调用顺序（因为调用的顺序在运行时确定，因为该顺序适应类层次结构中的更改，并且因为该顺序可以包括在运行时之前未知的兄弟类）。<br>
+
+&emsp;&emsp;看了上面的例子可能有人认为super和父类相关，但是其实super 和父类没有实质性的关联。它是按照一定顺序来解析的，type的__mro__属性列出getattr()和super()使用的方法解析顺序。该属性是动态的，并且可以在继承层次结构更新时更改。
+&emsp;&emsp;下面通过一个例子来说明：
+```
+class Base(object):
+    def __init__(self):
+        print "enter Base"
+        print "leave Base"
+
+class A(Base):
+    def __init__(self):
+        print "enter A"
+        super(A, self).__init__()
+        print "leave A"
+
+class B(Base):
+    def __init__(self):
+        print "enter B"
+        super(B, self).__init__()
+        print "leave B"
+
+class C(A, B):
+    def __init__(self):
+        print "enter C"
+        super(C, self).__init__()
+        print "leave C"
+        
+```
+
+```
+>>> c = C()
+enter C
+enter A
+enter B
+enter Base
+leave Base
+leave B
+leave A
+leave C
+```
+
+事实上，对于你定义的每一个类，Python 会计算出一个方法解析顺序（Method Resolution Order, MRO）列表，它代表了类继承的顺序，我们可以使用下面的方式获得某个类的 MRO 列表：
+```
+>>> C.mro()   # or C.__mro__ or C().__class__.mro()
+[__main__.C, __main__.A, __main__.B, __main__.Base, object]
+```
+通过MRO列表就可以知道具体的顺序。
